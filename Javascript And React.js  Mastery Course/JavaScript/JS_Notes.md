@@ -65,13 +65,13 @@ what is Data Types ?
 
  1. Primitive Data Types (Basic types)
 Type	Example
-String	"Hello"
-Number	123, 3.14
-Boolean	true, false
-Undefined	Variable declared but no value
-Null	Empty or no value
-BigInt	Very large numbers
-Symbol	Unique value
+1.String	"Hello"
+2.Number	123, 3.14
+3.Boolean	true, false
+4.Undefined	Variable declared but no value
+5.Null	Empty or no value
+6.BigInt	Very large numbers
+7.Symbol	Unique value
 
 🔸 2. Non-Primitive (Reference) Data Types
 Type	Example
@@ -92,6 +92,86 @@ let data = null;         // Null
 let info = { city: "Delhi" }; // Object
 
 
+
+
+                  <!-- Operator -->
+what is Operator ?
+  An operator is a symbol used to perform operations on values or variables — like addition, comparison, or assigning values.
+
+
+  Operator wo symbol hota hai jo calculation ya comparison karta hai.
+Jaise + add karta hai, == compare karta hai, = value assign karta hai.
+
+
+| Type           | Example       | Purpose                               |     |                              |
+| -------------- | ------------- | ------------------------------------- | --- | ---------------------------- |
+| **Arithmetic** | `+ - * / %`   | Math operations (add, subtract, etc.) |     |                              |
+| **Assignment** | `= += -=`     | Assign or update variable value       |     |                              |
+| **Comparison** | `== === != >` | Compare values (true/false result)    |     |                              |
+| **Logical**    | \`&&          |                                       | !\` | Combine or invert conditions |
+| **String**     | `+`           | Join (concatenate) strings            |     |                              |
+| **Unary**      | `++ --`       | Increase or decrease by 1             |     |                              |
+| **Ternary**    | `? :`         | Short form of if-else                 |     |                              |
+
+
+
+
+What is an Arithmetic Operator in JavaScript?
+Arithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication, etc.
+
+Arithmetic operators wo hote hain jo math ke calculation me use hote hain — jaise + add karta hai, - subtract, * multiply, etc
+
+Common Arithmetic Operators:
+
+| Operator | Name                | Example | Result      |
+| -------- | ------------------- | ------- | ----------- |
+| `+`      | Addition            | `5 + 2` | `7`         |
+| `-`      | Subtraction         | `5 - 2` | `3`         |
+| `*`      | Multiplication      | `5 * 2` | `10`        |
+| `/`      | Division            | `5 / 2` | `2.5`       |
+| `%`      | Modulus (Remainder) | `5 % 2` | `1`         |
+| `++`     | Increment           | `x++`   | `x = x + 1` |
+| `--`     | Decrement           | `x--`   | `x = x - 1` |
+
+
+
+🔹 Increment and Decrement Operators in JavaScript
+These operators are used to increase or decrease a number by 1.
+
+1. Increment Operator (++)
+It increases the value by 1.
+
+let a = 5;
+
+console.log(a++) // 5
+console.log(a) // now a = 6
+
+
+
+2. Decrement Operator (--)
+It decreases the value by 1.
+
+let b = 5;
+console.log(b--) //5
+console.log(b) // now b = 4
+
+
+let b = 5;
+b--;   // now b = 4
+
+
+let x = 10;
+console.log(x++); // Output: 10 → then x becomes 11
+console.log(++x); // x becomes 12 → Output: 12
+
+
+++ ka use karte hain value 1 badhane ke liye
+
+-- ka use karte hain value 1 ghatane ke liye
+
+x++ → pehle value use, baad me change
+
+++x → pehle value change, fir use
 
 
 
