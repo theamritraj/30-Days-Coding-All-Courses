@@ -57,3 +57,43 @@ const block scope me hota hai, value aur naam dono fix hote hain.
 
 
 
+              <!-- Data Types  -->
+
+what is Data Types ?
+  A data type defines the kind of value a variable can hold — like numbers, text, true/false, etc.
+
+
+ 1. Primitive Data Types (Basic types)
+Type	Example
+String	"Hello"
+Number	123, 3.14
+Boolean	true, false
+Undefined	Variable declared but no value
+Null	Empty or no value
+BigInt	Very large numbers
+Symbol	Unique value
+
+🔸 2. Non-Primitive (Reference) Data Types
+Type	Example
+Object	{ name: "Amrit" }
+Array	[1, 2, 3]
+Function	function() {}
+
+🗨️ Hindi + English Mix:
+JavaScript me data types batate hain ki variable kis type ka data store karega — jaise number, text, true/false, object, etc.
+Primitive types simple hote hain, aur non-primitive types complex ya multiple value rakhte hain.
+
+
+
+let name = "Amrit";      // String
+let age = 22;            // Number
+let isStudent = true;    // Boolean
+let data = null;         // Null
+let info = { city: "Delhi" }; // Object
+
+
+
+
+
+
+
