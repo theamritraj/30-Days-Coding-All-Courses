@@ -182,4 +182,4 @@ x++ → pehle value use, baad me change
         <!-- Assignment Operator -->
 
 What is Assignment Operator ?
-  Assignment Operator is a HJGH
+  Assignment Operator i
